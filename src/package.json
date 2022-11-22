@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"

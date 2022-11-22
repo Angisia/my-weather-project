@@ -15,8 +15,8 @@
 
 
 <body>
-    <h1>Weather</h1>
-    <div class="card">
+    <h1>Weather APP</h1>
+    <div class="card mainBody">
         <div class="card-body">
 
 
@@ -37,7 +37,7 @@
                             <input type="text" placeholder="Search" class="search-line" id="typeCity">
                         </form>
                     </div>
-                    <div class="col" id="searchButton">
+                    <div class="col searchButton" id="searchButton">
                         <div class="btn-group" role="group" aria-label="Basic example">
                             <button type="button" class="btn btn-outline-primary">Search</button>
                         </div>
@@ -52,7 +52,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-8" id="currentCity"> <b> Munich </b></div>
+                <div class="col-8 currentCity" id="currentCity"> <b> Munich </b></div>
             </div>
         </div>
         <div class="container">
@@ -68,8 +68,16 @@
 
         <div class="container">
             <div class="row">
-                <div class="col">☀️ <span id="currentDegree"><b> 22 </b></span> <b><a href="#"
-                            id="Celsius">ºC</a></b>|<b><a href="#" id="Fahrenheit">ºF</a></b></div>
+                <div class="weather-temperature">
+                <div class="col">☀️ <span id="currentDegree"><strong> 22 </strong></span> 
+                    <span class="units"> 
+                        <a href="#"
+                             id="Celsius" class="active">ºC</a>|
+                        <a href="#" 
+                             id="Fahrenheit">ºF</a>
+                    </span
+                  ></div>
+                  </div> 
             </div>
         </div>
         <div class="container text-center">

@@ -1,8 +1,62 @@
+body {
+    font-family: "Gill Sans",
+        sans-serif;
+}
+
 h1 {
     text-align: center;
     color: rgb(150, 150, 233);
 }
 
+.mainBody {
+    padding: 20px;
+    border: 1px solid #dadde1;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+    color: #878787;
+    font-family: Cerebri-Sans,
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
 .search-line {
     padding: 4px;
+
+}
+
+.currentCity {
+    color: rgb(150, 150, 233);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.weather-temperature img {
+    margin-right: 5px;
+    height: 64px;
+    width: 64px;
+}
+
+.weather-temperature strong {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+}
+
+.weather-temperature .active {
+    color: rgb(33, 33, 33);
+    cursor: default;
+    text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+    text-decoration: none;
 }
