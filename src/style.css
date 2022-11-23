@@ -32,6 +32,10 @@ h1 {
     font-weight: 700;
 }
 
+.description {
+    text-transform: capitalize;
+}
+
 .weather-temperature img {
     margin-right: 5px;
     height: 64px;

@@ -52,32 +52,37 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-8 currentCity" id="currentCity"> <b> Munich </b></div>
+                <div class="col-8 currentCity" id="currentCity"></div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-8" id="curentTD">Sunday 12:00</div>
-                <div class="col-4" id="humidity">Precipitation: 70 %</div>
+                <div class="col-8" id="curentTD"></div>
+                <div class="col-4" id="humidity">Humidity: 70 %</div>
             </div>
             <div class="row">
-                <div class="col-8" id="description">Sunny</div>
+                <div class="col-8 description" id="description"></div>
                 <div class="col-4" id="wind">Wind: 15 km/h</div>
             </div>
         </div>
 
         <div class="container">
             <div class="row">
-                <div class="weather-temperature">
-                <div class="col">☀️ <span id="currentDegree"><strong> 22 </strong></span> 
-                    <span class="units"> 
-                        <a href="#"
-                             id="Celsius" class="active">ºC</a>|
-                        <a href="#" 
-                             id="Fahrenheit">ºF</a>
+                <div class="col">
+                <div class=" weather-temperature">
+                 <img src="" alt="" id="icon" class="float-left" />
+                 <div>
+                    <strong id="currentDegree"></strong>
+                        <span class="units"> 
+                            <a href="#"
+                                id="Celsius" class="active">ºC</a>|
+                            <a href="#" 
+                                id="Fahrenheit">ºF</a>
                     </span
-                  ></div>
-                  </div> 
+                  >
+                </div>
+                </div>
+                </div> 
             </div>
         </div>
         <div class="container text-center">
@@ -116,7 +121,7 @@
     </div>
     </div>
     <p> <a href="https://github.com/Angisia/my-weather-project.git" target='_blank'>Open source</a>, by Anastasiia Holomakh </p>
-    <script src="src/app.js"></script>
+    <script src="src/index.js"></script>
 </body>
 
 </html>
