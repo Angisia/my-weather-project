@@ -5,7 +5,22 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(150, 150, 233);
+    color: #4c3062;
+}
+
+.cityMunich {
+    text-decoration: none;
+    color: #4c3062;
+}
+
+.cityKyiv {
+    text-decoration: none;
+    color: #4c3062;
+}
+
+.cityToronto {
+    text-decoration: none;
+    color: #4c3062;
 }
 
 .mainBody {
@@ -27,7 +42,7 @@ h1 {
 }
 
 .currentCity {
-    color: rgb(150, 150, 233);
+    color: #4c3062;
     font-size: 38px;
     font-weight: 700;
 }
@@ -43,7 +58,7 @@ h1 {
 }
 
 .weather-temperature strong {
-    color: rgb(33, 33, 33);
+    color: #4c3062;
     font-size: 64px;
     line-height: 1;
     font-weight: 400;
@@ -56,11 +71,15 @@ h1 {
 }
 
 .weather-temperature .active {
-    color: rgb(33, 33, 33);
+    color: #4c3062;
     cursor: default;
     text-decoration: none;
 }
 
 .weather-temperature .active:hover {
+    text-decoration: none;
+}
+
+.Fahrenheit {
     text-decoration: none;
 }
