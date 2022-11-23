@@ -43,11 +43,17 @@ function search(city) {
   axios.get(apiUrl).then(displayTemperature);
 }
 
-function handleSubmit(event) {
+function clickSearchButton(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#typeCity");
   search(cityInputElement.value);
 }
+
+
+// function MunichTemperature() {
+//     search("Kyiv");
+// }
+
 
 function showCurrentWeather(response) {
 
@@ -96,7 +102,7 @@ function displayFahrenheitTemperature(event) {
 let celsiusTemperature = null;
 
 let form = document.querySelector("#searchButton");
-form.addEventListener("click", handleSubmit);
+form.addEventListener("click", clickSearchButton);
 
 let currentClick = document.querySelector("#currentButton");
 currentClick.addEventListener("click", retrievePosition);
@@ -106,5 +112,14 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 let celsiusLink = document.querySelector("#Celsius");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
+
+// let munichLink = document.querySelector("#cityMunich");
+// fahrenheitLink.addEventListener("click", MunichTemperature);
+
+// let kyivLink = document.querySelector("#kyivCity");
+// celsiusLink.addEventListener("click", KyivTemperature);
+
+// let torontoLink = document.querySelector("#torontoCity");
+// celsiusLink.addEventListener("click", TorontoTemperature);
 
 search("Munich");
